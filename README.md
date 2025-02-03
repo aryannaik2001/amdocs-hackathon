@@ -21,7 +21,7 @@ Design algorithms that can autonomously identify and verify the accuracy of info
 ---
 
 ## **Demo Video**  
-[Watch the Demo](https://drive.google.com/drive/folders/1JhW3rSaQIj5yboHy1kUDyQo1krXnG4Yq?usp=sharing)  
+[Watch the Demo](https://youtu.be/dAyzBoMMBO8)  
 
 ---
 
