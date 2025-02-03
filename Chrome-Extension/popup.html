@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>TrustPilot Fact Checker</title>
+  <link href="styles.css" rel="stylesheet">
+  <script src="popup.js" defer></script>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>TrustPilot</h1>
+    </header>
+
+    <div class="fact-checker">
+      <h2>Fact Checker</h2>
+      <div class="input-group">
+        <input 
+          type="text" 
+          id="factCheckInput" 
+          placeholder="Enter claim to fact-check..."
+        >
+        <button id="checkButton">Check</button>
+      </div>
+    </div>
+
+    <div id="loadingIndicator" class="loading hidden">
+      Checking...
+    </div>
+
+    <div id="resultContainer" class="result-container hidden">
+      <div class="result-header">
+        <div id="confidenceScore" class="score"></div>
+        <div id="reliabilityStatus" class="status"></div>
+      </div>
+      
+      <div id="evidence" class="evidence"></div>
+      
+      <div class="action-buttons">
+        <button class="action-btn">Sources Verified</button>
+        <button class="action-btn">Flagged Reasons</button>
+        <button class="action-btn">Similar Claims</button>
+      </div>
+
+      <div class="sources">
+        <h3>Sources:</h3>
+        <ul id="sourcesList"></ul>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
