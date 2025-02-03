@@ -69,6 +69,9 @@ npm install
 npm start
 ```
 
----
+
+![Screenshot (2783)](https://github.com/user-attachments/assets/18041971-5d8b-45be-9622-726e1d14beb5)
+![Screenshot (2782)](https://github.com/user-attachments/assets/b58445c8-96c6-4fc2-842d-6f2900ce4fab)
+
 
 
