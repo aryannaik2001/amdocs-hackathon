@@ -21,14 +21,14 @@ This is our submission code for the above problem statement.
 Steps to run the code:
 1. First clone the github repo
 2. Now create a new python environment:
-# python -m venv env
-# cd env
-# pip install -r requirements.txt
+python -m venv env
+cd env
+pip install -r requirements.txt
 3. Now copy all the backend files in the env folder and edit the .env file with your API Keys.
 4. Now run the python file(FastAPI server):
-#  uvicorn app:app --host 0.0.0.0 --port 8000 --reload
+uvicorn app:app --host 0.0.0.0 --port 8000 --reload
 5. Once the python backend is running, go to frontend and run the following command:
-# npm install
-# npm start
+npm install
+npm start
 
 
